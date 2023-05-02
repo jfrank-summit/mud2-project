@@ -12,6 +12,7 @@
     "dev": "yarn deploy",
     "deploy": "yarn initialize && mud deploy-v2",
     "deploy:testnet": "yarn initialize && mud deploy-v2 --profile=lattice-testnet",
+    "deploy:frontier": "yarn initialize && mud deploy-v2 --profile=frontier",
     "----- INTERNAL -----": "---------------------------",
     "lint": "yarn prettier && yarn solhint",
     "tablegen": "mud tablegen",

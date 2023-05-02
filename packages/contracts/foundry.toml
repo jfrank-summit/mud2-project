@@ -16,3 +16,9 @@ fs_permissions = [{ access = "read", path = "./"}]
 
 [profile.lattice-testnet]
 eth_rpc_url = "https://follower.testnet-chain.linfra.xyz"
+[profile.frontier]
+eth_rpc_url = "http://localhost:9933"
+[profile.core-evm]
+eth_rpc_url = "ws://localhost:6789"
+[profile.moonbase-alpha]
+eth_rpc_url = "https://rpc.api.moonbase.moonbeam.network"
